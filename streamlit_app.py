@@ -48,8 +48,8 @@ def init():
     )
 
 def question(input,  personality):
-
     llm = HuggingFaceEndpoint(
+        huggingfacehub_api_token=os.getenv("HF_TOKEN"),
         repo_id="mistralai/Mixtral-8x7B-Instruct-v0.1",
         task="text-generation",
         return_full_text=True,
@@ -60,7 +60,6 @@ def question(input,  personality):
         temperature=0.01,
         repetition_penalty=1.03,
         streaming=True,
-        huggingfacehub_api_token=os.getenv('HUGGINGFACEHUB_API_TOKEN'),
     )
 
     template = ChatPromptTemplate([
