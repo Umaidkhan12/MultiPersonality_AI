@@ -73,7 +73,6 @@ def question(input,  personality):
     chain = template | llm
 
     response = chain.invoke({"personality": personality ,"name": "Akasha","input": input})
-    print(response)
     return response
 
 def main():
