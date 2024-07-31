@@ -43,8 +43,8 @@ def init():
     load_dotenv()
 
     st.set_page_config(
-        page_title="Search Query App",
-        page_icon="🔍"
+        page_title="MultiPersonality Assistant",
+        page_icon="🤖"
     )
 
 def question(input,  personality):
