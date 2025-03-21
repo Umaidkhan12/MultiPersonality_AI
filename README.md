@@ -18,4 +18,4 @@
 
 ### Link
 
-<a href="https://multipersonalityai.streamlit.app" target="_blank"> Click Here </a>
+<a href="https://multipersonalityai.streamlit.app" target="blank"> Click Here </a>
