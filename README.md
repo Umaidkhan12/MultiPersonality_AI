@@ -18,4 +18,4 @@
 
 ### Link
 
-[Click Here](https://multipersonalityai.streamlit.app){:target="_blank"}
+[Click Here](https://multipersonalityai.streamlit.app)
